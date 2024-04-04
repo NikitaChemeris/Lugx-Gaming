@@ -144,7 +144,7 @@
             </div>
             <div class="down-content">
               <span class="category">Action</span>
-              <h4>Assasin Creed</h4>
+              <h4>Warframe</h4>
               <a href="product-details.html"><i class="fa fa-shopping-bag"></i></a>
             </div>
           </div>
@@ -157,7 +157,7 @@
             </div>
             <div class="down-content">
               <span class="category">Action</span>
-              <h4>Assasin Creed</h4>
+              <h4>Tower of Fantasy</h4>
               <a href="product-details.html"><i class="fa fa-shopping-bag"></i></a>
             </div>
           </div>
@@ -170,7 +170,7 @@
             </div>
             <div class="down-content">
               <span class="category">Action</span>
-              <h4>Assasin Creed</h4>
+              <h4>Cyberpunk</h4>
               <a href="product-details.html"><i class="fa fa-shopping-bag"></i></a>
             </div>
           </div>
@@ -183,7 +183,7 @@
             </div>
             <div class="down-content">
               <span class="category">Action</span>
-              <h4>Assasin Creed</h4>
+              <h4>Master Duel</h4>
               <a href="product-details.html"><i class="fa fa-shopping-bag"></i></a>
             </div>
           </div>
@@ -213,7 +213,7 @@
             </div>
             <div class="down-content">
                 <span class="category">Adventure</span>
-                <h4>Assasin Creed</h4>
+                <h4>Warframe</h4>
                 <a href="product-details.html">Explore</a>
             </div>
           </div>
