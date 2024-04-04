@@ -56,11 +56,11 @@ https://templatemo.com/tm-589-lugx-gaming
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                      <li><a href="index.html">Home</a></li>
-                      <li><a href="shop.html" class="active">Our Shop</a></li>
-                      <li><a href="product-details.html">Product Details</a></li>
-                      <li><a href="contact.html">Contact Us</a></li>
-                      <li><a href="#">Sign In</a></li>
+                        <li><a href="index.php" class="active">Home</a></li>
+                        <li><a href="shop.php">Our Shop</a></li>
+                        <li><a href="product-details.php">Product Details</a></li>
+                        <li><a href="contact.php">Contact Us</a></li>
+                        <li><a href="#">Sign In</a></li>
                   </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>
@@ -272,13 +272,7 @@ https://templatemo.com/tm-589-lugx-gaming
     </div>
   </div>
 
-  <footer>
-    <div class="container">
-      <div class="col-lg-12">
-        <p>Copyright © 2048 LUGX Gaming Company. All rights reserved. &nbsp;&nbsp; <a rel="nofollow" href="https://templatemo.com" target="_blank">Design: TemplateMo</a></p>
-      </div>
-    </div>
-  </footer>
+  <?php require "parts/footer.php"?>
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
