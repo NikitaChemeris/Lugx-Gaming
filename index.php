@@ -267,7 +267,7 @@
         </div>
         <div class="col-lg col-sm-6 col-xs-12">
           <div class="item">
-            <h4>Action</h4>
+            <h4>Survival</h4>
             <div class="thumb">
               <a href="product-details.html"><img src="assets/images/categories-01.jpg" alt=""></a>
             </div>
@@ -275,7 +275,7 @@
         </div>
         <div class="col-lg col-sm-6 col-xs-12">
           <div class="item">
-            <h4>Action</h4>
+            <h4>Shooter</h4>
             <div class="thumb">
               <a href="product-details.html"><img src="assets/images/categories-05.jpg" alt=""></a>
             </div>
@@ -283,7 +283,7 @@
         </div>
         <div class="col-lg col-sm-6 col-xs-12">
           <div class="item">
-            <h4>Action</h4>
+            <h4>Racing</h4>
             <div class="thumb">
               <a href="product-details.html"><img src="assets/images/categories-03.jpg" alt=""></a>
             </div>
@@ -291,7 +291,7 @@
         </div>
         <div class="col-lg col-sm-6 col-xs-12">
           <div class="item">
-            <h4>Action</h4>
+            <h4>Adventure</h4>
             <div class="thumb">
               <a href="product-details.html"><img src="assets/images/categories-04.jpg" alt=""></a>
             </div>
@@ -299,7 +299,7 @@
         </div>
         <div class="col-lg col-sm-6 col-xs-12">
           <div class="item">
-            <h4>Action</h4>
+            <h4>Strategy</h4>
             <div class="thumb">
               <a href="product-details.html"><img src="assets/images/categories-05.jpg" alt=""></a>
             </div>
