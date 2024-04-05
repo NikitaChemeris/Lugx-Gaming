@@ -199,7 +199,7 @@
             </div>
             <div class="down-content">
                 <span class="category">Adventure</span>
-                <h4>Assasin Creed</h4>
+                <h4>PUBG</h4>
                 <a href="product-details.html">Explore</a>
             </div>
           </div>
@@ -211,7 +211,7 @@
             </div>
             <div class="down-content">
                 <span class="category">Adventure</span>
-                <h4>Assasin Creed</h4>
+                <h4>Apex Legends</h4>
                 <a href="product-details.html">Explore</a>
             </div>
           </div>
@@ -223,7 +223,7 @@
             </div>
             <div class="down-content">
                 <span class="category">Adventure</span>
-                <h4>Assasin Creed</h4>
+                <h4>The Sims 4</h4>
                 <a href="product-details.html">Explore</a>
             </div>
           </div>
@@ -235,7 +235,7 @@
             </div>
             <div class="down-content">
                 <span class="category">Adventure</span>
-                <h4>Assasin Creed</h4>
+                <h4>Lost Ark</h4>
                 <a href="product-details.html">Explore</a>
             </div>
           </div>
@@ -247,7 +247,7 @@
             </div>
             <div class="down-content">
                 <span class="category">Adventure</span>
-                <h4>Assasin Creed</h4>
+                <h4>Destiny 2</h4>
                 <a href="product-details.html">Explore</a>
             </div>
           </div>
