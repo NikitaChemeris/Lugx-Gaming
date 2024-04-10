@@ -44,9 +44,9 @@
             </div>
             <p>LUGX Gaming Template is based on the latest Bootstrap 5 CSS framework. This template is provided by TemplateMo and it is suitable for your gaming shop ecommerce websites. Feel free to use this for any purpose. Thank you.</p>
             <ul>
-              <li><span>Address</span> Sunny Isles Beach, FL 33160, United States</li>
+              <li><span>Address</span>Trieda Andreja Hlinku 1, 949 74 Nitra-Chrenová, Slovakia</li>
               <li><span>Phone</span>+421 950 726 722</li>
-              <li><span>Email</span>nikitacemeris9@gmail.com</li>
+              <li><span>Email</span><a href="mailto:nikitacemeris9@gmail.com">nikitacemeris9@gmail.com</a></li>
             </ul>
           </div>
         </div>
