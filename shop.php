@@ -53,16 +53,15 @@
 
             foreach ($games as $single_game) {
                 ?>
-                <div class="col-lg-3 col-md-6 align-self-center mb-30 trending-items col-md-6 <?php echo strtolower($single_game['category']); ?>">
+                <div class="col-lg-3 col-md-6 align-self-center mb-30 trending-items col-md-6">
                     <div class="item">
                         <div class="thumb">
                             <a href="product-details.php"><img src="<?php echo $single_game['image_url']; ?>" alt=""></a>
                             <span class="price"><em>$<?php echo $single_game['price']; ?></em></span>
                         </div>
                         <div class="down-content">
-                            <span class="category"><?php echo $single_game['category']; ?></span>
                             <h4><?php echo $single_game['name']; ?></h4>
-                            <a href="product-details.php"><i class="fa fa-shopping-bag"></i></a>
+                            <a href="product-details.php?game_id=<?php echo $single_game['ID_game']; ?>"><i class="fa fa-shopping-bag"></i></a>
                             <form action="functions/delete_game.php" method="post" style="display:inline-block; margin-top: 10px;">
                                 <input type="hidden" name="id" value="<?php echo $single_game['ID_game']; ?>">
                                 <button type="submit" class="btn btn-danger">Delete</button>
