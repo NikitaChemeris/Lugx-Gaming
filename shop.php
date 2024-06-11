@@ -38,9 +38,9 @@
 <!-- ***** Shop Area Starts ***** -->
 <div class="section trending">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <a href="new_game.php" class="btn btn-primary">Create</a>
+        <div class="row mb-4">
+            <div class="col-lg-12">
+                <a href="new_game.php" class="btn btn-primary btn-lg">Create</a>
             </div>
         </div>
         <div class="row trending-box">

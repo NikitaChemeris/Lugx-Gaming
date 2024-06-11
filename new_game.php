@@ -39,7 +39,7 @@
 <div class="section trending">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 mt-4 mb-4">
                 <form action="functions/create_game.php" method="post">
                     <div class="form-group">
                         <label for="game_image">Game Image URL:</label>
@@ -57,7 +57,7 @@
                         <label for="game_description">Game Description:</label>
                         <textarea class="form-control" id="game_description" name="game_description" rows="4"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Create</button>
+                    <button type="submit" class="btn btn-primary btn-lg mt-2">Create</button>
                 </form>
             </div>
         </div>

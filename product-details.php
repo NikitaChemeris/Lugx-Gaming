@@ -45,7 +45,7 @@
         </div>
         <div class="col-lg-6 align-self-center">
           <h4>Call of Duty®: Modern Warfare® II</h4>
-          <span class="price"><em>$28</em> $22</span>
+          <span class="price">$22</span>
           <p>LUGX Gaming Template is based on the latest Bootstrap 5 CSS framework. This template is provided by TemplateMo and it is suitable for your gaming shop ecommerce websites. Feel free to use this for any purpose. Thank you.</p>
           <form id="qty" action="#">
             <button type="submit"><i class="fa fa-shopping-bag"></i> ADD TO CART</button>

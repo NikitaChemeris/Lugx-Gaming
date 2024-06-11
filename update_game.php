@@ -39,11 +39,11 @@
 <div class="section trending">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 mt-4 mb-4">
                 <?php
                 require_once 'classes/Game.php';
 
-                if(isset($_GET['id'])) {
+                if (isset($_GET['id'])) {
                     $game_id = $_GET['id'];
                     $game = new Game();
                     $current_game = $game->getGameById($game_id);
@@ -59,14 +59,14 @@
                             <input type="number" class="form-control" id="price" name="price" value="<?php echo $current_game['price']; ?>" required>
                         </div>
                         <div class="form-group">
-                            <label for="image_url">Image URL:</label>       <!-- it should be 1280 x 720 -->
+                            <label for="image_url">Image URL:</label> <!-- it should be 1280 x 720 -->
                             <input type="text" class="form-control" id="image_url" name="image_url" value="<?php echo $current_game['image_url']; ?>" required>
                         </div>
                         <div class="form-group">
                             <label for="description">Description:</label>
                             <textarea class="form-control" id="description" name="description" rows="4" required><?php echo $current_game['description']; ?></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Update Game</button>
+                        <button type="submit" class="btn btn-primary mt-2">Update Game</button>
                     </form>
                     <?php
                 } else {
