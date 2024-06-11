@@ -34,7 +34,6 @@ class Game {
         return $stmt->execute();
     }
 
-
     public function updateGame($id, $name, $price, $image_url, $description) {
         $sql = "UPDATE games SET name = :name, price = :price, image_url = :image_url, description = :description WHERE ID_game = :id";
         $stmt = $this->conn->prepare($sql);
@@ -51,6 +50,11 @@ class Game {
         $stmt = $this->conn->prepare($sql);
         $stmt->bindParam(':id', $id);
         return $stmt->execute();
+    }
+
+    // Реализация метода __toString для возврата строкового представления объекта Game
+    public function __toString() {
+        return "Game: [ID: $this->id, Name: $this->name, Price: $this->price, Image URL: $this->image_url, Description: $this->description]";
     }
 }
 ?>

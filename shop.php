@@ -63,8 +63,15 @@
                             <span class="category"><?php echo $single_game['category']; ?></span>
                             <h4><?php echo $single_game['name']; ?></h4>
                             <a href="product-details.php"><i class="fa fa-shopping-bag"></i></a>
+                            <form action="functions/delete_game.php" method="post" style="display:inline-block; margin-top: 10px;">
+                                <input type="hidden" name="id" value="<?php echo $single_game['ID_game']; ?>">
+                                <button type="submit" class="btn btn-danger">Delete</button>
+                            </form>
+                            <form action="update_game.php" method="get" style="display:inline-block; margin-top: 10px;">
+                                <input type="hidden" name="id" value="<?php echo $single_game['ID_game']; ?>">
+                                <button type="submit" class="btn btn-success">Update</button>
+                            </form>
                         </div>
-                        <a href="update_game.php?id=<?php echo $single_game['ID_game']; ?>">Update</a>
                     </div>
                 </div>
                 <?php

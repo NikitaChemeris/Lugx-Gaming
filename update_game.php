@@ -59,7 +59,7 @@
                             <input type="number" class="form-control" id="price" name="price" value="<?php echo $current_game['price']; ?>" required>
                         </div>
                         <div class="form-group">
-                            <label for="image_url">Image URL:</label>
+                            <label for="image_url">Image URL:</label>       <!-- it should be 1280 x 720 -->
                             <input type="text" class="form-control" id="image_url" name="image_url" value="<?php echo $current_game['image_url']; ?>" required>
                         </div>
                         <div class="form-group">
