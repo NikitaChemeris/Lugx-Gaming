@@ -24,14 +24,16 @@ class Game {
         return $stmt->fetch();
     }
 
-    public function createGame($name, $price, $description) {
-        $sql = "INSERT INTO games (name, price, description) VALUES (:name, :price, :description)";
+    public function createGame($name, $price, $image_url, $description) {
+        $sql = "INSERT INTO games (name, price, image_url, description) VALUES (:name, :price, :image_url, :description)";
         $stmt = $this->conn->prepare($sql);
         $stmt->bindParam(':name', $name);
         $stmt->bindParam(':price', $price);
+        $stmt->bindParam(':image_url', $image_url);
         $stmt->bindParam(':description', $description);
         return $stmt->execute();
     }
+
 
     public function updateGame($id, $name, $price, $description) {
         $sql = "UPDATE games SET name = :name, price = :price, description = :description WHERE ID_game = :id";
