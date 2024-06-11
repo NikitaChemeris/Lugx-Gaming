@@ -57,7 +57,7 @@
                     <div class="item">
                         <div class="thumb">
                             <a href="product-details.php"><img src="<?php echo $single_game['image_url']; ?>" alt=""></a>
-                            <span class="price"><em>$<?php echo $single_game['price']; ?></em></span>
+                            <span class="price">$<?php echo $single_game['price']; ?></span>
                         </div>
                         <div class="down-content">
                             <h4><?php echo $single_game['name']; ?></h4>
