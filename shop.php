@@ -64,6 +64,7 @@
                             <h4><?php echo $single_game['name']; ?></h4>
                             <a href="product-details.php"><i class="fa fa-shopping-bag"></i></a>
                         </div>
+                        <a href="update_game.php?id=<?php echo $single_game['ID_game']; ?>">Update</a>
                     </div>
                 </div>
                 <?php

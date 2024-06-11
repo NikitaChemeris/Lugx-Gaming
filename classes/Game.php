@@ -35,12 +35,13 @@ class Game {
     }
 
 
-    public function updateGame($id, $name, $price, $description) {
-        $sql = "UPDATE games SET name = :name, price = :price, description = :description WHERE ID_game = :id";
+    public function updateGame($id, $name, $price, $image_url, $description) {
+        $sql = "UPDATE games SET name = :name, price = :price, image_url = :image_url, description = :description WHERE ID_game = :id";
         $stmt = $this->conn->prepare($sql);
         $stmt->bindParam(':id', $id);
         $stmt->bindParam(':name', $name);
         $stmt->bindParam(':price', $price);
+        $stmt->bindParam(':image_url', $image_url);
         $stmt->bindParam(':description', $description);
         return $stmt->execute();
     }
